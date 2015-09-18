@@ -32,6 +32,10 @@ window.onload = function(){
 
 
 }, 500);
+	document.getElementById("loader").style.opacity="0";
+	document.getElementById("loader").style.transition= "opacity 1s";
+	document.getElementById("loader-text").style.opacity="0";
+	document.getElementById("loader-text").style.transition="opacity 1s";
 	 window.onerror = function(message, url, lineNumber) {  
         // code to execute on an error  
         return true; // prevents browser error messages  

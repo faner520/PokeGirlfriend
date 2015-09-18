@@ -3,6 +3,23 @@
 	src:url("../fonts/pokeGF.ttf");
 }
 
+#loader{
+	background:url("../image/charmander-loader.gif") no-repeat center center;
+	background-color: white;
+	position:absolute;
+	width:100%;
+	height:100%;
+	z-index: 10;
+}
+#loader-text{
+	font-weight: 700;
+	left: 45%;
+	position:absolute;
+	top:10%;
+	text-align: center;
+	font-size: 36px;
+
+}
 body{
 	background: yellow no-repeat center center fixed;
 	background-size: cover;
