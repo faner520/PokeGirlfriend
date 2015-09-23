@@ -12,12 +12,12 @@ body{
 #girlfriend-sprite{
 	position: absolute;
     top: 4%;
-    left:35%;
+    left:0%;
     width: 400px;
     height: 300px;
 	z-index: 15;
 	background:url("../image/girlfriend-sprite.png") no-repeat;
-	background-size: 100px 200px;
+	background-size: 500px 200px;
 
 }
 #girlfriend-base{
@@ -27,8 +27,8 @@ body{
     width: 43%;
     height: 18%;
     border-radius: 80px/25px;
-    border: 5px solid #54BA6A;
-    background: #64F383;
+    border: 5px solid #E0E0E0;
+    background: #000;
 }
 
 #boyfriend-container{
@@ -47,11 +47,9 @@ body{
     width: 400px;
     height: 300px;
 	z-index: 15;
-	background:url("../image/boyfriend.png") no-repeat;
+	background:url("../image/boyfriend-sprite.png") no-repeat;
 	background-size: 200px 200px;
 }
-
-
 #boyfriend-base{
 	position: absolute;
     top: 87%;
@@ -60,7 +58,7 @@ body{
     height: 18%;
     border-radius: 80px/25px;
     border: 5px solid #54BA6A;
-    background: #64F383;
+    background: #000;
 }
 #game-container{
 	position: absolute;
